@@ -146,7 +146,7 @@ public class ViewCadastroHorarioAtendimento extends JFrame {
 		ftfFechamento.setBounds(470, 43, 78, 20);
 		contentPane.add(ftfFechamento);
 
-		JLabel lblAbertura = new JLabel("Abertura");
+		JLabel lblAbertura = new JLabel("Abertura"); 
 		lblAbertura.setBounds(237, 45, 55, 16);
 		contentPane.add(lblAbertura);
 
