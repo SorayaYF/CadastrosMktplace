@@ -46,6 +46,11 @@ public class HorarioAtendimentoService {
 				if (horarioDeAbertura == null || horarioDeFechamento == null) {
 					throw new IllegalArgumentException("Os horários de abertura e fechamento são obrigatórios");
 				}
+				
+				if (horarioDeAbertura == null || horarioDeFechamento == null) {
+					throw new IllegalArgumentException("Os horários de abertura e fechamento são obrigatórios");
+				}
+				
 
 				if (horarioDeAbertura.isAfter(horarioDeFechamento)) {
 					throw new IllegalArgumentException(

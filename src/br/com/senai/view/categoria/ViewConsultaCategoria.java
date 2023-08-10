@@ -174,7 +174,7 @@ public class ViewConsultaCategoria extends JFrame {
 	}	
 	
 	private void configurarColuna(int indice, int largura) {
-		this.tableCategorias.getColumnModel().getColumn(indice).setResizable(true);
+		this.tableCategorias.getColumnModel().getColumn(indice).setResizable(false);
 		this.tableCategorias.getColumnModel().getColumn(indice).setPreferredWidth(largura);
 	}
 	

@@ -274,7 +274,7 @@ public class ViewCadastroHorarioAtendimento extends JFrame {
 	}
 	
 	private void configurarColuna(int indice, int largura) {
-		this.tableHorarioAtendimento.getColumnModel().getColumn(indice).setResizable(true);
+		this.tableHorarioAtendimento.getColumnModel().getColumn(indice).setResizable(false);
 		this.tableHorarioAtendimento.getColumnModel().getColumn(indice).setPreferredWidth(largura);
 	}
 	
