@@ -53,5 +53,4 @@ Para executar a aplicação **CadastrosMktplace** em sua máquina, siga os passo
 ## 🧩 Funcionalidades
 
 - **Interface Gráfica com Swing**: Interface amigável para gerenciamento de dados.
-- **Backend com Spring**: APIs RESTful para comunicação com o frontend.
 - **Banco de Dados PostgreSQL**: Armazenamento persistente de dados.
